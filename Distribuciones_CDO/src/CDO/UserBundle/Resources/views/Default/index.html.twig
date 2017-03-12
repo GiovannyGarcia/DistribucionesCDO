@@ -1,0 +1,21 @@
+{% extends '::userbase.html.twig' %}
+
+{% block title %}
+    Distri CDO Cali
+{% endblock %}
+
+{% block header %}
+    <div id="title">
+        <h1 id="encabezado">Bienvenidossss</h1>
+    </div>
+{% endblock %}
+
+{% block body %}
+
+    {% for flashMessage in app.session.flashbag.get('mensaje') %}
+        <span class="alert-success">
+            {{ flashMessage }} <hr>
+        </span>
+    {% endfor %}
+
+{% endblock %}

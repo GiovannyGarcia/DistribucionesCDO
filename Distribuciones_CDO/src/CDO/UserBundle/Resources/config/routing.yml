@@ -1,0 +1,11 @@
+cdo_user_homepage:
+    path:     /home
+    defaults: { _controller: CDOUserBundle:Trabajo:index }
+
+cdo_user_pag:
+    path:     /user
+    defaults: { _controller: CDOUserBundle:Trabajo:index }
+
+cdo_user_crear:
+    path:     /crear
+    defaults: { _controller: CDOUserBundle:Default:crear }

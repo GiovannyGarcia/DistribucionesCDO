@@ -1,0 +1,105 @@
+{% extends '::userbase.html.twig' %}
+
+ {% block title %}
+     Crear Cliente
+ {% endblock %}
+
+{% block header %}
+    <div id="title">
+        <h1 id="encabezado">Bienvenidos</h1>
+    </div>
+{% endblock %}
+
+{% block body %}
+<div id="container" class="ltr">
+
+    <h1 id="logo">
+        <a  title="Distribuciones CDO - Vendedor">Vendedor</a>
+    </h1>
+
+    <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+          action="https://giovannygg.wufoo.com.mx/forms/z16npt9h0qufb7k/#public">
+
+        <header id="header" class="info">
+            <h2>Crear Cliente</h2>
+        </header>
+        <ul>
+            <li id="foli3" class="notranslate      ">
+                <label class="desc " id="title3" for="Field3">
+                    Cedula
+                    <span id="req_3" class="req">*</span>
+                </label>
+                <div>
+                    <input id="Field3" name="Field3" type="text" class="field text nospin medium"  value="" tabindex="1" onkeyup="" required       />
+                </div>
+            </li>
+            <li id="foli21" class="notranslate      ">
+                <label class="desc" id="title21" for="Field21">
+                    Datos Personales
+                    <span id="req_21" class="req">*</span>
+                </label>
+                <span>
+<input id="Field21" name="Field21" type="text" class="field text fn" value="" size="8" tabindex="2"       required />
+<label for="Field21">Nombre</label>
+</span>
+                <span>
+<input id="Field22" name="Field22" type="text" class="field text ln" value="" size="14" tabindex="3" required />
+<label for="Field22">Apellidos</label>
+</span>
+            </li>
+            <li id="foli25" class="notranslate      ">
+                <label class="desc" id="title25" for="Field25">
+                    Ciudad
+                    <span id="req_25" class="req">*</span>
+                </label>
+                <div>
+                    <input id="Field25" name="Field25" type="text" class="field text medium" value="" maxlength="255" tabindex="4" onkeyup=""       required />
+                </div>
+            </li>
+            <li id="foli15" class="notranslate      ">
+                <label class="desc" id="title15" for="Field15">
+                    Direccion
+                    <span id="req_15" class="req">*</span>
+                </label>
+                <div>
+                    <input id="Field15" name="Field15" type="text" class="field text medium" value="" maxlength="255" tabindex="5" onkeyup=""       required />
+                </div>
+            </li>
+            <li id="foli10" class="notranslate      ">
+                <label class="desc" id="title10" for="Field10">
+                    Número de teléfono
+                    <span id="req_10" class="req">*</span>
+                </label>
+                <div>
+                    <input id="Field10" class="field text medium" name="Field10" tabindex="6" required
+                           type="tel" maxlength="255" value="" />
+                </div>
+            </li>
+            <li id="foli24" class="notranslate      ">
+                <label class="desc" id="title24" for="Field24">
+                    Correo electrónico
+                </label>
+                <div>
+                    <input id="Field24" name="Field24" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="7"       />
+                </div>
+            </li> <li class="buttons ">
+                <div>
+
+                    <input id="saveForm" name="saveForm" class="btTxt submit"
+                           type="submit" value="Enviar"
+                    />
+
+                </div>
+            </li>
+
+            <li class="hide">
+                <label for="comment">Do Not Fill This Out</label>
+                <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                <input type="hidden" id="idstamp" name="idstamp" value="9LX2YhKeYNU4aRicrUxPSki9dYmh6atlI25LZ0p+HAQ=" />
+            </li>
+        </ul>
+    </form>
+
+
+</div><!--container-->
+{% endblock %}

@@ -1,0 +1,3 @@
+cd_obd_homepage:
+    path:     /
+    defaults: { _controller: CDObdBundle:Default:index }

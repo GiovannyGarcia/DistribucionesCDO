@@ -1,0 +1,11 @@
+cd_obd:
+    resource: "@CDObdBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cdo_user:
+    resource: "@CDOUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
