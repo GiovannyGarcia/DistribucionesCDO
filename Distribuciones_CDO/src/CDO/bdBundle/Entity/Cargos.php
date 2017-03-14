@@ -23,7 +23,7 @@ class Cargos
 
     /**
      * @var string
-     *
+     * 
      * @ORM\Column(name="codCargo", type="string", length=10, unique=true)
      */
     private $codCargo;
