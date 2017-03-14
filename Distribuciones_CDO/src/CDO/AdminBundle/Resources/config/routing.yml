@@ -1,0 +1,11 @@
+cdo_admin_homepage:
+    path:     /admin
+    defaults: { _controller: CDOAdminBundle:Admin:index}
+
+cdo_admin_autorizar:
+    path:     /admin/autorizar
+    defaults: { _controller: CDOAdminBundle:Admin:Autorizar }
+
+cdo_admin_CRUDpdto:
+    path:     /admin/productos
+    defaults: { _controller: CDOAdminBundle:Admin:CRUDpdto }

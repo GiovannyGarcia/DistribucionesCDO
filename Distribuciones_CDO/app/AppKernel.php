@@ -18,6 +18,8 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new CDO\UserBundle\CDOUserBundle(),
             new CDO\bdBundle\CDObdBundle(),
+            new CDO\AdminBundle\CDOAdminBundle(),
+            new CDO\VendedorBundle\CDOVendedorBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

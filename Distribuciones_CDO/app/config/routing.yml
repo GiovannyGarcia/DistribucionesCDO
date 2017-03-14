@@ -1,3 +1,11 @@
+cdo_vendedor:
+    resource: "@CDOVendedorBundle/Resources/config/routing.yml"
+    prefix:   /
+
+cdo_admin:
+    resource: "@CDOAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
 cd_obd:
     resource: "@CDObdBundle/Resources/config/routing.yml"
     prefix:   /

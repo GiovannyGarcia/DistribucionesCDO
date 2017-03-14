@@ -1,0 +1,11 @@
+cdo_vendedor_homepage:
+    path:     /vendedor
+    defaults: { _controller: CDOVendedorBundle:Vendedor:index }
+
+cdo_vendedor_ventas:
+    path:     /vendedor/ventas
+    defaults: { _controller: CDOVendedorBundle:Vendedor:Ventas }
+
+cdo_vendedor_pedidos:
+    path:     /vendedor/pedidos
+    defaults: { _controller: CDOVendedorBundle:Vendedor:Pedidos }
